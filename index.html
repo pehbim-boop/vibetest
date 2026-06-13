@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>임호빈 | 개인 홍보 사이트</title>
+    <meta
+      name="description"
+      content="임호빈의 관심사와 작업 방식을 소개하는 개인 홍보용 웹사이트입니다."
+    />
+    <meta name="theme-color" content="#f1f7f1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#home">본문 바로가기</a>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#home">임호빈</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="nav-toggle-text">메뉴</span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="주요 메뉴">
+          <a class="nav-link is-active" href="#home">홈</a>
+          <a class="nav-link" href="#about">자기소개</a>
+          <a class="nav-link" href="#portfolio">포트폴리오</a>
+          <a class="nav-link" href="#hobby">취미</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Personal Branding</p>
+
+            <!-- 가장 먼저 바꾸기 쉬운 핵심 문구 영역 -->
+            <h1>안녕하세요, 저는 임호빈입니다.</h1>
+
+            <p class="hero-lead">
+              저는 [관심 분야 또는 직무]에 관심이 많고, 사람들에게 좋은 경험을
+              전하는 일을 좋아합니다.
+            </p>
+            <p class="hero-text">
+              차분하게 성장하고, 꾸준히 기록하며, 제 색깔이 담긴 결과물을
+              만드는 사람입니다.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#about">자기소개 보기</a>
+              <a class="button button-secondary" href="#portfolio"
+                >포트폴리오 보기</a
+              >
+            </div>
+
+            <ul class="hero-tags" aria-label="핵심 키워드">
+              <li>정돈된 작업</li>
+              <li>부드러운 소통</li>
+              <li>꾸준한 성장</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal reveal-delay">
+            <div class="profile-card">
+              <div class="profile-badge">Profile Mood</div>
+              <div class="profile-orbit">
+                <div class="profile-avatar">임호빈</div>
+              </div>
+              <p class="profile-quote">
+                좋은 경험은 세심한 기록과 편안한 소통에서 시작된다고 믿습니다.
+              </p>
+              <div class="profile-notes">
+                <div>
+                  <strong>관심 키워드</strong>
+                  <span>콘텐츠, 기획, 협업, 성장</span>
+                </div>
+                <div>
+                  <strong>작업 태도</strong>
+                  <span>차분하게 정리하고 끝까지 완성하기</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="about">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About Me</p>
+            <h2>자기소개</h2>
+            <p>
+              배우는 과정을 즐기고, 맡은 일을 끝까지 다듬으며, 함께하는 사람에게
+              편안한 인상을 남기고 싶습니다.
+            </p>
+          </div>
+
+          <div class="about-layout">
+            <article class="about-story reveal">
+              <p>
+                저는 새로운 것을 배우는 과정을 즐기고, 맡은 일을 끝까지 책임감
+                있게 해내는 사람입니다.
+              </p>
+              <p>
+                복잡한 내용을 이해하기 쉽게 정리하고, 작은 아이디어를 실제
+                결과물로 만드는 일을 좋아합니다.
+              </p>
+              <p>
+                함께 일하는 사람에게는 편안하고 믿을 수 있는 사람으로 기억되고
+                싶습니다.
+              </p>
+            </article>
+
+            <div class="about-cards">
+              <article class="info-card reveal">
+                <p class="card-label">강점</p>
+                <h3>성실함과 꾸준함</h3>
+                <p>작은 일도 놓치지 않고 차분하게 완성도를 높입니다.</p>
+                <ul>
+                  <li>성실함</li>
+                  <li>빠른 적응력</li>
+                  <li>꾸준함</li>
+                </ul>
+              </article>
+
+              <article class="info-card reveal reveal-delay">
+                <p class="card-label">관심사</p>
+                <h3>사람과 결과를 잇는 작업</h3>
+                <p>정보를 더 보기 쉽게 만들고, 좋은 흐름을 설계하는 데 관심이 있습니다.</p>
+                <ul>
+                  <li>콘텐츠</li>
+                  <li>기획</li>
+                  <li>협업</li>
+                  <li>성장</li>
+                </ul>
+              </article>
+
+              <article class="info-card reveal reveal-delay-2">
+                <p class="card-label">일하는 방식</p>
+                <h3>정리하고 끝까지 완성하기</h3>
+                <p>복잡한 내용을 정돈한 뒤, 마지막 디테일까지 점검하며 마무리합니다.</p>
+                <ul>
+                  <li>차분한 정리</li>
+                  <li>우선순위 설정</li>
+                  <li>마감 책임감</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="portfolio">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h2>포트폴리오</h2>
+            <p>
+              이미지가 없어도 완성도 있게 보이도록, 핵심 역할과 결과를 중심으로
+              구성한 프로젝트 카드입니다.
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <article class="portfolio-card reveal">
+              <div class="card-thumbnail card-thumbnail-1">
+                <span>Project 01</span>
+              </div>
+              <div class="card-body">
+                <h3>[포트폴리오 1 제목]</h3>
+                <p>
+                  이 프로젝트는 어떤 목적을 가지고 진행했는지 간단히
+                  소개합니다.
+                </p>
+                <ul class="chip-list" aria-label="프로젝트 포인트">
+                  <li>기획</li>
+                  <li>정리</li>
+                  <li>완성도</li>
+                </ul>
+                <p class="card-result">
+                  사용자에게 깔끔하고 직관적인 경험을 전달했습니다.
+                </p>
+                <button class="card-link" type="button" disabled>
+                  자세히 보기
+                </button>
+              </div>
+            </article>
+
+            <article class="portfolio-card reveal reveal-delay">
+              <div class="card-thumbnail card-thumbnail-2">
+                <span>Project 02</span>
+              </div>
+              <div class="card-body">
+                <h3>[포트폴리오 2 제목]</h3>
+                <p>
+                  문제를 해결하거나 정보를 보기 쉽게 구성한 작업을 소개합니다.
+                </p>
+                <ul class="chip-list" aria-label="프로젝트 포인트">
+                  <li>문제 해결</li>
+                  <li>구조화</li>
+                  <li>소통</li>
+                </ul>
+                <p class="card-result">
+                  복잡한 내용을 더 쉽게 이해할 수 있도록 만들었습니다.
+                </p>
+                <button class="card-link" type="button" disabled>
+                  자세히 보기
+                </button>
+              </div>
+            </article>
+
+            <article class="portfolio-card reveal reveal-delay-2">
+              <div class="card-thumbnail card-thumbnail-3">
+                <span>Project 03</span>
+              </div>
+              <div class="card-body">
+                <h3>[포트폴리오 3 제목]</h3>
+                <p>
+                  작은 아이디어를 실제 결과물로 발전시킨 경험을 소개합니다.
+                </p>
+                <ul class="chip-list" aria-label="프로젝트 포인트">
+                  <li>아이디어</li>
+                  <li>실행</li>
+                  <li>개선</li>
+                </ul>
+                <p class="card-result">
+                  실용적이면서도 인상적인 결과물을 만들었습니다.
+                </p>
+                <button class="card-link" type="button" disabled>
+                  자세히 보기
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft" id="hobby">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Hobby</p>
+            <h2>취미</h2>
+            <p>
+              일 바깥의 시간도 저를 설명하는 중요한 부분이라 생각해, 조금 더
+              부드러운 무드로 담았습니다.
+            </p>
+          </div>
+
+          <div class="card-grid hobby-grid">
+            <article class="hobby-card reveal">
+              <div class="hobby-icon">Walk</div>
+              <h3>산책</h3>
+              <p>
+                걷는 시간을 통해 생각을 정리하고 새로운 에너지를 얻습니다.
+              </p>
+            </article>
+
+            <article class="hobby-card reveal reveal-delay">
+              <div class="hobby-icon">Read</div>
+              <h3>독서</h3>
+              <p>
+                다양한 이야기와 관점을 접하며 아이디어를 넓히는 것을 좋아합니다.
+              </p>
+            </article>
+
+            <article class="hobby-card reveal reveal-delay-2">
+              <div class="hobby-icon">Photo</div>
+              <h3>사진 기록</h3>
+              <p>
+                일상 속 작은 순간을 기록하며 감각과 관찰력을 키웁니다.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
